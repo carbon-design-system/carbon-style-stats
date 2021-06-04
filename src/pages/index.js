@@ -97,7 +97,7 @@ export default function IndexPage() {
   return (
     <>
       <div className="title">
-        <h1>Carbon Sass Files</h1>
+        <h1>Carbon Style Stats</h1>
         <div className="filters">
           <FilterDropdown
             onChange={(e) =>
@@ -107,7 +107,7 @@ export default function IndexPage() {
           <Search onChange={(e) => setFilterInput(e.target.value)} />
         </div>
       </div>
-      {filteredFiles ? (
+      {filteredFiles.length > 0 ? (
         <div className="items">
           {filteredFiles.map((file) => {
             const { id, imports, exports, stats } = file;
@@ -135,7 +135,7 @@ export default function IndexPage() {
           })}
         </div>
       ) : (
-        'No matching files found.'
+        <h2 className="no-match">No matching files found.</h2>
       )}
       <section>
         <h2>Statistics</h2>

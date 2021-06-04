@@ -53,6 +53,7 @@ body {
 
 .title h1 {
   position: relative;
+  font-size: 48px;
   top: 4px;
 }
 
@@ -63,6 +64,12 @@ body {
 .filters > * {
   margin-right: 1rem;
   min-width: 250px;
+}
+
+.no-match {
+  padding: 6rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .grid {

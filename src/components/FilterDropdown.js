@@ -12,12 +12,12 @@ const initialSelectedItem = items.find(
 );
 
 const FilterDropdown = (props) => {
-  console.log(props);
   return (
     <CarbonDropdown
       onChange={props.onChange}
       light
       titleText="Sort by statistic"
+      id="stats-filter-dropdown"
       label="Choose a statistic to sort the files"
       initialSelectedItem={initialSelectedItem}
       items={items}

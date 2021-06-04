@@ -1,14 +1,11 @@
 import React from 'react';
-import {
-  TextInput as CarbonTextInput,
-  FormLabel,
-} from 'carbon-components-react';
+import { TextInput as CarbonTextInput } from 'carbon-components-react';
 
 const Search = (props) => {
-  console.log(props);
   return (
     <CarbonTextInput
       onChange={props.onChange}
+      id="file-name-filter"
       labelText="Filter files by name"
       light
       placeholder="progress-indicator.scss"
