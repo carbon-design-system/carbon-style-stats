@@ -137,7 +137,7 @@ export default function IndexPage() {
       ) : (
         <h2 className="no-match">No matching files found.</h2>
       )}
-      <section>
+      <section className="stats">
         <h2>Statistics</h2>
         <dl className="grid grid-columns-2 grid-max-content">
           {Array.from(statistics.entries()).map(([column, value]) => {

@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "next",
+    "dev": "yarn develop",
     "build": "next build"
   },
   "dependencies": {
