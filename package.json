@@ -1,0 +1,22 @@
+{
+  "name": "module-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "next"
+  },
+  "dependencies": {
+    "@carbon/test-utils": "^10.3.0",
+    "carbon-components": "^10.36.0",
+    "carbon-components-react": "^7.36.0",
+    "carbon-icons": "^7.0.7",
+    "lodash.orderby": "^4.6.0",
+    "next": "^10.0.9",
+    "prettier": "^2.2.1",
+    "prettier-config-carbon": "^0.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.8"
+  }
+}
